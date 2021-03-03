@@ -116,12 +116,49 @@ console.log(thirdNum);
 console.log(multidimensionalArray[2][1]);
 // Putting the fourth Number into a new Variable 
 let fourthNum = (multidimensionalArray[2][1]);
-console.log(fourtNum);
+console.log(fourthNum);
 
 console.log(multidimensionalArray[2][1]);
 // Putting the fifth Number into a new Variable 
-let fifthhNum = (multidimensionalArray[2][1]);
-console.log(fifthtNum);
+let fifthNum = (multidimensionalArray[2][1]);
+console.log(fifthNum);
+
+
+// Challenge Excercise 1 | Multidimensional Array Task
+
+let arrayChallenge = [
+    ["city", "Vienna", "Budapest", "Tokyo", "Sofia"],
+    ["amazing", "are", "is", "all", "of", "them"],
+    ["an", "let", "it", "be", "an", "a", "hope", "not"],
+    ["all", "of", "them", "are", "amazing", "cities", "pretty", "cool"],
+    ["Stadt", "Hauptstadt", "City", "Capital", "trophy", "deserved"]
+];
+
+let displayCity = (arrayChallenge[0][1]);
+console.log(displayCity);
+let displayIs = (arrayChallenge[1][2]);
+console.log(displayIs);
+let displayAn = (arrayChallenge[2][4]);
+console.log(displayAn);
+let displayAmz = (arrayChallenge[3][4]);
+console.log(displayAmz);
+let displayLastRow = (arrayChallenge[4][2]);
+console.log(displayLastRow);
+
+let displayChallenge = (displayCity + " " + displayIs + " " + displayAn + " " + displayAmz + " " + displayLastRow);
+console.log(displayChallenge);
+
+// Challenge Excercise 2 | String Manipulation
+
+let unstructuredSentence = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up."
+
+let splitSentence = unstructuredSentence.split("$");
+console.log(splitSentence);
+
+let splitSentenceTwo = unstructuredSentence.replaceAll("$", " ");
+console.log(splitSentenceTwo);
+
+
 
 
 
